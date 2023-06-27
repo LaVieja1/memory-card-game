@@ -1,0 +1,36 @@
+.scoreboard-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 69rem;
+}
+
+.score {
+    padding: 0.5rem;
+    width: 35%;
+    font-size: 2rem;
+    border-radius: 20px;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.current-score {
+    background-color: var(--orange);
+}
+
+.best-score {
+    background-color: var(--gold);
+}
+
+@media (max-width: 750px) {
+    .scoreboard-wrapper {
+        flex-direction: column;
+        width: 250px;
+        gap: 3rem;
+    }
+
+    .score {
+        width: 100%;
+    }
+}
