@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/memory-card-game/static/css/main.b21f04a9.css",
+    "main.js": "/memory-card-game/static/js/main.edd10847.js",
+    "static/media/logo.png": "/memory-card-game/static/media/logo.5c058f4f0330c3ef57f0.png",
+    "static/media/KungFuMaster3DItalic-MV7KP.otf": "/memory-card-game/static/media/KungFuMaster3DItalic-MV7KP.a235c340fec4573e2e77.otf",
+    "index.html": "/memory-card-game/index.html",
+    "main.b21f04a9.css.map": "/memory-card-game/static/css/main.b21f04a9.css.map",
+    "main.edd10847.js.map": "/memory-card-game/static/js/main.edd10847.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b21f04a9.css",
+    "static/js/main.edd10847.js"
+  ]
+}
