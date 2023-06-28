@@ -1,0 +1,28 @@
+.footer-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.github-link {
+    display: flex;
+    padding-bottom: 0.3rem;
+    margin-left: 0.7rem;
+    color: var(-white);
+    font-size: 1.8rem;
+}
+
+.github-link:hover {
+    color: var(--whiteHover);
+}
+
+.github-link:active {
+    color: var(--whiteActive);
+}

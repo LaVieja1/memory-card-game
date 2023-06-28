@@ -1,6 +1,43 @@
+@font-face {
+  font-family: pricedown;
+  src: url(assets/pricedown\ bl.otf);
+}
+
 :root {
   --gold: #d78e10;
   --blue: #4c75b7;
   --black: #000;
   --grey: #656a79;
+  --white: #eee;
+  --whiteHover: #ccc;
+  --whiteActive: #aaa;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  word-wrap: break-word;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.6;
+  /* FOOTER */
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: pricedown, sans-serif;
+  font-size: 1.6rem;
+  background-color: var(--white);
+  color: var(--black);
+}
+
+header {
+  font-size: 3rem;
+}
+
