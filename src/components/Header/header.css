@@ -2,12 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 4rem;
     padding: 2rem;
     background-color: var(--grey);
 }
 
 .logo {
-    max-width: 250px;
+    max-width: 100px;
 }
 
 .line {
