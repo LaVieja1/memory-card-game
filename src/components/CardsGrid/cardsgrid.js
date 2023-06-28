@@ -3,12 +3,12 @@ import Card from "../Card/card";
 
 import './cardsgrid.css';
 
-const CardsGrid = ({ gtaCharacters, handleCardClick }) => {
-    const gtaCards = gtaCharacters.map((gta) => (
-        <Card key={gta.id} gta={gta} handleCardClick={handleCardClick} />
+const CardsGrid = ({ superheroCharacters, handleCardClick }) => {
+    const superheroCards = superheroCharacters.map((superhero) => (
+        <Card key={superhero.id} superhero={superhero} handleCardClick={handleCardClick} />
     ))
 
-    return <div className="cards-grid-wrapper">{gtaCards}</div>
+    return <div className="cards-grid-wrapper">{superheroCards}</div>
 }
 
 export default CardsGrid;

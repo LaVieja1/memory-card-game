@@ -1,6 +1,6 @@
 @font-face {
-  font-family: pricedown;
-  src: url(assets/pricedown\ bl.otf);
+  font-family: marvel;
+  src: url(assets/kung-fu-master-font/KungFuMaster3DItalic-MV7KP.otf)
 }
 
 :root {
@@ -31,7 +31,7 @@ html {
 }
 
 body {
-  font-family: pricedown, sans-serif;
+  font-family: marvel, sans-serif;
   font-size: 1.6rem;
   background-color: var(--white);
   color: var(--black);
