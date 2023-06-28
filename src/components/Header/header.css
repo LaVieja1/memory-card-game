@@ -1,0 +1,19 @@
+.header-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: var(--grey);
+}
+
+.logo {
+    max-width: 350px;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    background-color: var(--black);
+}
